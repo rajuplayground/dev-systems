@@ -10,4 +10,4 @@ jobs:
 
     steps:
       - name: Print a message
-        run: echo 'This is a sample test'
+        run: echo "This is a sample test"
