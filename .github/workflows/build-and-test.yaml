@@ -5,7 +5,7 @@ on:
         branches: [main]
 
 jobs:
-  sample:
+  test-app:
     runs-on: ubuntu-latest
 
     steps:
