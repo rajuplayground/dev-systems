@@ -16,7 +16,7 @@ jobs:
 
     build-app:
         runs-on: ubuntu-latest
-
+        needs: test-app
         steps:
             - uses: actions/checkout@v3
             - uses: actions/setup-node@v3
