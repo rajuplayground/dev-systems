@@ -1,7 +1,6 @@
 {
   "scripts": {
-    "test": "vitest",
-    "build": "tsc"
+    "test": "vitest"
   },
   "devDependencies": {
     "typescript": "^5.0.2",
