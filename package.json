@@ -1,10 +1,19 @@
 {
   "scripts": {
+    "dev": "vite",
     "test": "vitest",
-    "build": "tsc"
+    "build": "tsc && vite build"
   },
   "devDependencies": {
     "typescript": "^5.0.2",
+    "vite": "^4.2.1",
     "vitest": "^0.29.8"
+  },
+  "dependencies": {
+    "@types/react": "^18.0.31",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^3.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
