@@ -1,5 +1,5 @@
 import { expect, it, describe } from "vitest"
-import { add, subtract } from "./operations"
+import { add, multiplication, subtract } from "./operations"
 
 describe("Mathematical operations", ()=>{
     it("should work return added numbers", ()=>{
@@ -10,5 +10,10 @@ describe("Mathematical operations", ()=>{
     it("should work return subtracted numbers", ()=>{
         const result = subtract(4,2)
         expect(result).toBe(2)
+    })
+
+    it("should work return multiplied numbers", ()=>{
+        const result = multiplication(4,2)
+        expect(result).toBe(8)
     })
 })
