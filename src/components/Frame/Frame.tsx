@@ -1,6 +1,6 @@
 function Frame({children}){
     return(
-        <div style={{background: "aqua"}}>{children}</div>
+        <div style={{background: "beige"}}>{children}</div>
     )
 }
 

@@ -1,4 +1,3 @@
-import { expect, it, describe } from "vitest"
 import { add, division, multiplication, subtract } from "./operations"
 
 describe("Mathematical operations", ()=>{

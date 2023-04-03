@@ -1,7 +1,6 @@
 import path from 'node:path'
-import { defineConfig, UserConfig } from 'vite'
+import { UserConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import { config } from 'node:process'
 
 // https://vitejs.dev/config/
 const configuration: UserConfig = {
@@ -9,7 +8,8 @@ const configuration: UserConfig = {
   resolve:{
     alias:{
         '@': path.resolve(__dirname, "./src"),
-        $components: path.resolve(__dirname, "./src/components")
+        $components: path.resolve(__dirname, "./src/components"),
+        $test: path.resolve(__dirname, "./src/test")
     }
   }
 }
