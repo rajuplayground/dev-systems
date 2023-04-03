@@ -1,5 +1,5 @@
 import path from 'node:path'
-import { UserConfig } from 'vite'
+import { UserConfig, build } from 'vite'
 import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
