@@ -1,7 +1,6 @@
 import path from 'node:path'
-import { defineConfig, UserConfig } from 'vite'
+import { UserConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import { config } from 'node:process'
 
 // https://vitejs.dev/config/
 const configuration: UserConfig = {
