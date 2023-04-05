@@ -10,6 +10,7 @@
     "@testing-library/user-event": "^14.4.3",
     "@vitest/coverage-c8": "^0.29.8",
     "jsdom": "^21.1.1",
+    "msw": "^1.2.1",
     "typescript": "^5.0.2",
     "vite": "^4.2.1",
     "vitest": "^0.29.8"

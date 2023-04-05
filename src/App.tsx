@@ -1,6 +1,7 @@
 import Frame from "$components/Frame";
 import Counter from "./examples/counter";
 import { add } from "./examples/operations";
+import RandomList from "./examples/random-list";
 
 
 function App(){
@@ -8,6 +9,7 @@ function App(){
 
     return (<div>
         <Counter />
+        <RandomList />
     </div>)
 }
 
